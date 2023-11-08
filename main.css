@@ -1,0 +1,48 @@
+main{
+        margin-left: 15pt;
+        margin-right: 15pt;
+      }
+header{
+        margin-left: 15pt;
+        margin-right: 15pt;
+        background-image:url(https://avatars.mds.yandex.net/i?id=58e343fb72b4b27b756ef7a69c9b2ab3-5253517-images-thumbs&n=13);
+        background-size: cover;
+        
+      }
+h1{
+    align-items: center;
+    color: red;
+    }
+h2{
+    color: brown;
+    
+    }
+h3{
+    color: rgb(140, 18, 18);
+    }
+li{
+  list-style-type: circle;
+  font-size: 18px;
+  color: blanchedalmond;
+}
+h1 + p {
+  font-size: 150%;
+  font-style: italic;
+}
+p{
+  font-size: 18px;
+  color: blanchedalmond;
+  
+}
+a{
+  color: red;
+}
+body{
+  background-color: black;
+}
+img{
+  max-width: 100%; 
+  width: 300px;
+  object-fit: cover; 
+  object-position: bottom;
+}
